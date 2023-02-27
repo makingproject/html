@@ -1,0 +1,46 @@
+The viewport is the user's visible area of a web page.
+
+The viewport varies with the device, and will be smaller on a mobile phone than on a computer screen.
+
+Before tablets and mobile phones, web pages were designed only for computer screens, and it was common for web pages to have a static design and a fixed size.
+
+Then, when we started surfing the internet using tablets and mobile phones, fixed size web pages were too large to fit the viewport. To fix this, browsers on those devices scaled down the entire web page to fit the screen.
+
+This was not perfect!! But a quick fix.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+
+ভিউপোর্ট হল একটি ওয়েব পেজের ব্যবহারকারীর দৃশ্যমান এলাকা।
+
+ভিউপোর্ট ডিভাইসের সাথে পরিবর্তিত হয় এবং কম্পিউটার স্ক্রিনের তুলনায় মোবাইল ফোনে ছোট হবে।
+
+ট্যাবলেট এবং মোবাইল ফোনের আগে, ওয়েব পৃষ্ঠাগুলি শুধুমাত্র কম্পিউটার স্ক্রিনের জন্য ডিজাইন করা হয়েছিল, এবং ওয়েব পৃষ্ঠাগুলির একটি স্থির নকশা এবং একটি নির্দিষ্ট আকার থাকা সাধারণ ছিল।
+
+তারপরে, যখন আমরা ট্যাবলেট এবং মোবাইল ফোন ব্যবহার করে ইন্টারনেট সার্ফিং শুরু করি, নির্দিষ্ট আকারের ওয়েব পৃষ্ঠাগুলি ভিউপোর্টের সাথে মানানসই করার জন্য খুব বড় ছিল। 
+এটি ঠিক করতে, সেই ডিভাইসগুলির ব্রাউজারগুলি স্ক্রীনের সাথে মানানসই করার জন্য সমগ্র ওয়েব পৃষ্ঠাটিকে ছোট করে।
+
+এটা নিখুঁত ছিল না!! কিন্তু একটি দ্রুত ফিক্স.
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Setting The Viewport
+HTML5 introduced a method to let web designers take control over the viewport, through the <meta> tag.
+
+You should include the following <meta> viewport element in all your web pages:
+
+ভিউপোর্ট সেট করা
+HTML5 একটি পদ্ধতি চালু করেছে যা ওয়েব ডিজাইনারদের <meta> ট্যাগের মাধ্যমে ভিউপোর্টের নিয়ন্ত্রণ নিতে দেয়।
+
+আপনার সমস্ত ওয়েব পৃষ্ঠাগুলিতে নিম্নলিখিত <meta> ভিউপোর্ট উপাদান অন্তর্ভুক্ত করা উচিত:
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+This gives the browser instructions on how to control the page's dimensions and scaling.
+
+The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+
+The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+
+Here is an example of a web page without the viewport meta tag, and the same web page with the viewport meta tag:

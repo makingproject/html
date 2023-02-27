@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+body {
+	 margin: 0;
+	 background: rgb(15,15,15);
+	 color:white;
+	 text-align: center;
+}
+h1,h2,h3{
+	 font-family: 'Open Sans',serif;
+	 margin-top: 0;
+	 margin-bottom: 2em;
+}
+h5{
+	 color: rgb(199,199,199);
+}
+p{
+	font-family: 'Open Sans';
+	color: rgb(160,160,160);
+	margin-top: 0;
+}
+.outer{
+	padding: 1em;
+}
+section{
+	column-count: 5;
+	column-gap: 5em;
+}

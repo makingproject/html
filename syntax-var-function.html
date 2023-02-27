@@ -1,0 +1,26 @@
+<h1> Syntax of the var() Function</h1>
+
+<p>The <span style="color:#BF40BF;font-weight:700;">var()  </span> function is used to insert the value of a CSS variable</p>
+<p>The syntax of the <span style="color:#BF40BF;font-weight:700;">var() </span> function as follows: </p>
+
+<p style="border: 1px solid #B2BEB5;padding:17px;"> var(--name, value) </p>
+
+<table style="border: 1px solid #B2BEB5;padding:17px;width:100%;">
+  <tr>
+     <th style="width:20%;">Value</th>
+	 <th>Description</th>
+  </tr>
+  <tr style="background-color:#b2beb5;">
+    <td><em>name</em></td>
+	<td>Required. The variable name ( must start with two dashes )</td>
+  </tr>
+   <tr>
+    <td><em>value</em></td>
+	<td>Optional. The fallback value ( used if the variable is not found )</td>
+  </tr>
+</table>
+<p><strong>Note:</strong> The variable name must bedin with two dashes (--) and it is case sensitive !</p>
+
+<h1>How var() Works</h1>
+<p>First of all: CSS variables can have a global or local scope.</p>
+<p>Global variables can be accessed / used through the entire document, while local variables can be 

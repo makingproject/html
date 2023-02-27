@@ -1,0 +1,34 @@
+<style>
+
+/* flex layout with display:table falllback */
+
+.layout {
+  display: table; /* falllback */
+  width: 100%; /* falllback */
+  display: flex;
+}
+
+.layout > .picture {
+  display: table-cell; /* falllback */
+  width: 30%; /* falllback */
+  display:flex; /* to make FF and IE happy */
+  //flex: 0 1 30%;
+  flex: 50%;
+  background: tomato;
+}
+
+.layout > .details {
+  display: table-cell; /* falllback */
+  width: auto; /* falllback */
+  display:flex; /* to make FF and IE happy */
+  flex: 1 1 auto;
+  background: aqua;
+}
+
+</style>
+<div class="layout">
+  <div class="picture">
+    <img src="...">
+  </div>
+  <div class="details">username, email, etc.</div>
+</div>
